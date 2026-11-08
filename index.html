@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Lovely Cat Cafe – Thưởng thức cà phê trong không gian ấm cúng cùng những chú mèo đáng yêu. Xem thực đơn, giờ mở cửa và đường đi tới quán."
+    />
+    <title>Lovely Cat Cafe</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
       rel="stylesheet"
@@ -43,11 +47,13 @@
 
       <!-- 1.2 Navigation-->
       <nav>
-        <p class="nav-item active">Trang chủ</p>
-        <p class="nav-item">Thực đơn</p>
-        <p class="nav-item">Mèo của quán</p>
-        <p class="nav-item">Âm nhạc</p>
-        <p class="nav-item">Vị trí & Liên hệ</p>
+        <ul>
+          <li class="nav-item active"><a>Trang chủ</a></li>
+          <li class="nav-item"><a>Thực đơn</a></li>
+          <li class="nav-item"><a>Mèo của quán</a></li>
+          <li class="nav-item"><a>Âm nhạc</a></li>
+          <li class="nav-item"><a>Vị trí & Liên hệ</a></li>
+        </ul>
       </nav>
 
       <!-- 1.3 Reserve Button-->
@@ -83,7 +89,7 @@
 
         <!-- 2.3 Info & Button -->
         <div class="reservation">
-          <h2 class="title">Không gian ấm cúng & Những người bạn bốn chân</h2>
+          <h1 class="title">Không gian ấm cúng & Những người bạn bốn chân</h1>
           <p class="description">
             Ánh nắng ban mai xuyên qua khung kính gỗ mộc mạc, cùng tách latte
             thơm lừng và những chú mèo hiền lành sẵn sàng sẻ chia khoảng khắc
@@ -128,10 +134,10 @@
                 class="image-item"
               />
 
-              <p class="item-info">
-                <span class="item-name">Cà phê sữa truyền thống</span>
+              <div class="item-info">
+                <h3 class="item-name">Cà phê sữa truyền thống</h3>
                 <span class="item-price">32.000 đ</span>
-              </p>
+              </div>
 
               <p class="item-description">
                 Espresso Robusta Đắk Lắk pha phin truyền thống hòa quyện cùng
@@ -159,10 +165,10 @@
                 alt="Bạc xỉu ba tầng kem béo"
                 class="image-item"
               />
-              <p class="item-info">
-                <span class="item-name">Bạc xỉu ba tầng kem béo</span>
+              <div class="item-info">
+                <h3 class="item-name">Bạc xỉu ba tầng kem béo</h3>
                 <span class="item-price">35.000 đ</span>
-              </p>
+              </div>
 
               <p class="item-description">
                 Hương vị ngọt dịu bồng bềnh với 3 tầng sữa đặc, sữa tươi thanh
@@ -190,10 +196,10 @@
                 alt="Trà đào cam sả thanh mát"
                 class="image-item"
               />
-              <p class="item-info">
-                <span class="item-name">Trà đào cam sả thanh mát</span>
+              <div class="item-info">
+                <h3 class="item-name">Trà đào cam sả thanh mát</h3>
                 <span class="item-price">38.000 đ</span>
-              </p>
+              </div>
 
               <p class="item-description">
                 Hương thơm thư thái từ sả tươi tự nhiên, cam vàng mọng nước cùng
@@ -221,10 +227,10 @@
                 alt="Trà lài kem cheese macchiato"
                 class="image-item"
               />
-              <p class="item-info">
-                <span class="item-name">Trà lài kem cheese macchiato</span>
+              <div class="item-info">
+                <h3 class="item-name">Trà lài kem cheese macchiato</h3>
                 <span class="item-price">42.000 đ</span>
-              </p>
+              </div>
 
               <p class="item-description">
                 Cốt trà lài Bảo Lộc ướp hoa tự nhiên phủ lớp kem cheese mặn béo
@@ -252,10 +258,10 @@
                 alt="Soda việt quất tươi mát lạnh"
                 class="image-item"
               />
-              <p class="item-info">
-                <span class="item-name">Soda việt quất tươi mát lạnh</span>
+              <div class="item-info">
+                <h3 class="item-name">Soda việt quất tươi mát lạnh</h3>
                 <span class="item-price">39.000 đ</span>
-              </p>
+              </div>
 
               <p class="item-description">
                 Sủi tăm tươi mát cùng sốt mứt việt quất nguyên quả tự nấu, điểm
@@ -283,10 +289,10 @@
                 alt=""
                 class="image-item"
               />
-              <p class="item-info">
-                <span class="item-name">Matcha Latte kem tuyết</span>
+              <div class="item-info">
+                <h3 class="item-name">Matcha Latte kem tuyết</h3>
                 <span class="item-price">39.000 đ</span>
-              </p>
+              </div>
               <p class="item-description">
                 Trà xanh Uji thượng hạng kết hợp sữa tươi thanh trùng và lớp kem
                 béo mượt mà thơm dịu.
@@ -326,13 +332,12 @@
             <div class="music-main">
               <div class="header">
                 <span class="material-symbols-outlined icon">music_note</span>
-                <p>
-                  <span class="title">Giai điệu quán đang phát</span>
-                  <br />
+                <div>
+                  <h3 class="title">Giai điệu quán đang phát</h3>
                   <span class="description"
                     >Acoustic & Lofi Coffee Vibes Live</span
                   >
-                </p>
+                </div>
               </div>
 
               <iframe
@@ -372,13 +377,12 @@
             <div class="map-main">
               <div class="header">
                 <span class="material-symbols-outlined icon">location_on</span>
-                <p>
-                  <span class="title">Vị trí & Đường đi tới quán</span>
-                  <br />
+                <div>
+                  <h3 class="title">Vị trí & Đường đi tới quán</h3>
                   <span class="description"
                     >Khu vực trung tâm Quận 1, TP. Hồ Chí Minh</span
                   >
-                </p>
+                </div>
               </div>
               <iframe
                 allowfullscreen=""
@@ -462,7 +466,7 @@
       </div>
 
       <div class="timetable">
-        <p class="title">THỜI GIAN ĐÓN KHÁCH</p>
+        <h2 class="title">THỜI GIAN ĐÓN KHÁCH</h2>
         <div class="time-items">
           <div class="time-item">
             <span class="weekday">Thứ Hai - Thứ Sáu</span>
@@ -482,7 +486,7 @@
       </div>
 
       <div class="contact">
-        <p class="title">LIÊN HỆ & HỖ TRỢ</p>
+        <h2 class="title">LIÊN HỆ & HỖ TRỢ</h2>
         <div class="info">
           <p class="address">
             <span class="material-symbols-outlined">place</span>
