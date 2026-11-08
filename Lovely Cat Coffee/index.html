@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/token.css" />
+  </head>
+
+  <body>
+    <!-- 1. Header -->
+    <header>
+      <!-- 1.1 Logo & Name-->
+      <div class="left">
+        <span
+          class="material-symbols-outlined"
+          style="
+            display: inline-block;
+            background-color: #ff385c30;
+            padding: 10px;
+            border-radius: 50%;
+            color: var(--color-primary);
+            font-size: 24px;
+            cursor: pointer;
+          "
+          >pets</span
+        >
+        <div class="shop-name">
+          <p class="name">Lovely Cat Cafe</p>
+          <p class="description">COFFEE & CAT HAVEN</p>
+        </div>
+      </div>
+
+      <!-- 1.2 Navigation-->
+      <nav>
+        <p class="nav-item active">Trang chủ</p>
+        <p class="nav-item">Thực đơn</p>
+        <p class="nav-item">Mèo của quán</p>
+        <p class="nav-item">Âm nhạc</p>
+        <p class="nav-item">Vị trí & Liên hệ</p>
+      </nav>
+
+      <!-- 1.3 Reserve Button-->
+      <button class="reserve">
+        <span class="material-symbols-outlined" style="font-size: 28px"
+          >calendar_today</span
+        >
+        <span>Đặt bàn</span>
+      </button>
+    </header>
+
+    <!-- 2. Banner -->
+    <section class="banner-container">
+      <div class="banner">
+        <!-- 2.1 Image -->
+        <img
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBuvfrWUiIVLK8Wxg2ESsal8mcMIF6z1XGViENj4UHNiIb2Fu7krKo_CV1miOzXKfhEgZqBZbETBT5jMRRrl7bQw-bWkTkkjT_Daw89shO4IGtorVTGlrXkT_AaqD207fannzdTnTHPsSh1mH8FjivR1DKSr_OxhSZBLq45GQvAiM2h0Tw13gLhZi-o65fNTPeM4aVmyvZ2rv0bFt2r59khN0B3Sst6W8zGt1QcPk"
+          alt="Banner không gian quán"
+        />
+
+        <!-- 2.2 Hero -->
+        <div class="hero">
+          <span
+            class="material-symbols-outlined"
+            style="
+              color: var(--color-primary);
+              font-variation-settings: &quot;FILL&quot; 1;
+            "
+            >local_cafe</span
+          >
+          <span>KHÔNG GIAN TRẢI NGHIỆM ĐẶC BIỆT</span>
+        </div>
+
+        <!-- 2.3 Info & Button -->
+        <div class="reservation">
+          <h2 class="title">Không gian ấm cúng & Những người bạn bốn chân</h2>
+          <p class="description">
+            Ánh nắng ban mai xuyên qua khung kính gỗ mộc mạc, cùng tách latte
+            thơm lừng và những chú mèo hiền lành sẵn sàng sẻ chia khoảng khắc
+            bình yên bên bạn.
+          </p>
+          <button class="reserve">
+            <span class="material-symbols-outlined">search</span> Đặt bàn
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!-- 3. Menu -->
+      <section class="menu-container">
+        <!-- 3.1 Menu header -->
+        <div class="menu-header">
+          <div class="left">
+            <p class="category">MENU & THỨC UỐNG</p>
+            <h2>Danh Sách Sản Phẩm</h2>
+            <p class="description">
+              Mỗi món thức uống đều được pha chế tỉ mỉ từ nguyên liệu tươi sạch
+              nguyên hạt, an toàn cho cả khách và các bé mèo cưng.
+            </p>
+          </div>
+          <div class="filter">
+            <p class="filter-item active">Tất cả</p>
+            <p class="filter-item">Cà phê (Coffee)</p>
+            <p class="filter-item">Trà (Tea)</p>
+            <p class="filter-item">Soda & Đá xay</p>
+          </div>
+        </div>
+
+        <!-- 3.2 Menu items -->
+        <div class="menu-items">
+          <!-- item 1-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt_x5993dt-mfxd6YsQnpvFTVM39aU23l1qUISP68abfdQvTrc0D17F9sd1_Ld50ACVtDDSdGAi9B2kkBZF6Qk1wWxBWj4SJynwW4EaloSseYRzRuRBBpKYxz1Yy8efKBAkY5CTheWUzQSmwJ5aX-PuOhfuz4z77GGAKnZGK5Lp0BQLnTcktVKMM8U_eY_bf_AcJQ6IiZ57-MF3gYlZrhtJTvujDcjtQAl63zz_gg"
+                alt="Cà phê sữa"
+                class="image-item"
+              />
+
+              <p class="item-info">
+                <span class="item-name">Cà phê sữa truyền thống</span>
+                <span class="item-price">32.000 đ</span>
+              </p>
+
+              <p class="item-description">
+                Espresso Robusta Đắk Lắk pha phin truyền thống hòa quyện cùng
+                sữa đặc béo ngậy và đá mát lạnh sảng khoái.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+
+          <!-- item 2-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBumsd9j9j1JxKDIuAe-UgFtBmiYmt5A-CNw6vA6NReiA2G4v8cfXyRha4iwxKdw7XAjYSewOn8WCVqbPrHG61sV089fZCsetRAr-y1uR2_FEfpFwJnR-SGjs_Qg4OSl7EQXVYdjJg7HsGSxATlG0s7-BEHYwkQjNA2hZp6tXmZ2tio0qQhGClfczNfIo88aGXntb-bqyvtiptjW2sp5TPqMCa8NTXIzLEAOEu40No"
+                alt="Bạc xỉu ba tầng kem béo"
+                class="image-item"
+              />
+              <p class="item-info">
+                <span class="item-name">Bạc xỉu ba tầng kem béo</span>
+                <span class="item-price">35.000 đ</span>
+              </p>
+
+              <p class="item-description">
+                Hương vị ngọt dịu bồng bềnh với 3 tầng sữa đặc, sữa tươi thanh
+                trùng và lớp cà phê nguyên chất mịn màng.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+
+          <!-- item 3-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3W_4aAZrAwGePpyZqK9FKw_M0N__IQqbi82GLek_xbsCiRKo18S0RYxNuVCgFCE9GjJZLR_ZJ43QKlSfFGrLdq7IdTt4d4rVe76maxRc8VQYSh16b0ZOqvq52X_4xGr77fH-s8dQpTu94BgZbgN09JYrCo0DaNWxO5wxDYMmTU2g29ORK7vejFjbHwCke5d-sVj8BvK5HVk0DuZYmjyWT4Tg172Ngn6qI39gpRNQ"
+                alt="Trà đào cam sả thanh mát"
+                class="image-item"
+              />
+              <p class="item-info">
+                <span class="item-name">Trà đào cam sả thanh mát</span>
+                <span class="item-price">38.000 đ</span>
+              </p>
+
+              <p class="item-description">
+                Hương thơm thư thái từ sả tươi tự nhiên, cam vàng mọng nước cùng
+                những lát đào giòn ngọt thơm ngát.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+
+          <!-- item 4-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAplhXc2wcJ-zVMNHjSqmC4p8cYvcYS8rSdqq3tBKCtp-oVXelt7gTIGZvBg0MJ5z6S3gjAtNIexTl9IEqGhW6mSs4ySfjPGdmWWls-jotgFqg1PdqqAUPe0b_MytDaQLaAQYy15TA42n2muZoM2yVUGrADdcDRdxZD2IxNqwvl93B_TorI0XZMurEljdmPZvcvvfq6ItQ4QBxd1XosqOe5C__C-f0zJOtxJ29xVac"
+                alt="Trà lài kem cheese macchiato"
+                class="image-item"
+              />
+              <p class="item-info">
+                <span class="item-name">Trà lài kem cheese macchiato</span>
+                <span class="item-price">42.000 đ</span>
+              </p>
+
+              <p class="item-description">
+                Cốt trà lài Bảo Lộc ướp hoa tự nhiên phủ lớp kem cheese mặn béo
+                ngậy dày mịn đặc trưng vạn người mê.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+
+          <!-- item 5-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3le_kdI4ICLMbOrvor4g1ZhAeCyZ3sJkk2XeDoHKiu4B3rXK3Djt7akg-hBJSv1XSEN-ZUSyhM4jC8az5z1IOACRBVAE-GA0beKS_zJM2fSnWzHKYe14CrZ8t9RpBVHN8Ayx-uln6EbVmea3zlKeRPU9ZPmByKP0Pz8Uc-wYo8DwxYozGXeDDGxBvlzVZRIbnSevh9YuT3i0UFjx79_bDBd3b-4L7MjvIhmr7738"
+                alt="Soda việt quất tươi mát lạnh"
+                class="image-item"
+              />
+              <p class="item-info">
+                <span class="item-name">Soda việt quất tươi mát lạnh</span>
+                <span class="item-price">39.000 đ</span>
+              </p>
+
+              <p class="item-description">
+                Sủi tăm tươi mát cùng sốt mứt việt quất nguyên quả tự nấu, điểm
+                xuyết lá bạc hà the mát giải nhiệt.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+
+          <!-- item 6-->
+          <div class="item">
+            <div class="item-information">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSY4OjNQnG8nMLfTxWEQ-zgPdCXws4WLS7cVMAg4dmaFYRJcHAmcr8Q__NUFn1vUB3uzUciMGB92JCd2Re5KmnhWz3I0udOImY1gZMuevhGPj3giNK5htZXa5vcOuTEdWOeyLvCt2wTmyhzu7JqA3tkWL1ZoyXtZSv7LBPO5sIQ9XjMDogt_X8wcELSrC366VqNlmCj75328VAOexUuMjpzRinO-VGV71BcsFYFk0"
+                alt=""
+                class="image-item"
+              />
+              <p class="item-info">
+                <span class="item-name">Matcha Latte kem tuyết</span>
+                <span class="item-price">39.000 đ</span>
+              </p>
+              <p class="item-description">
+                Trà xanh Uji thượng hạng kết hợp sữa tươi thanh trùng và lớp kem
+                béo mượt mà thơm dịu.
+              </p>
+            </div>
+            <div class="item-actions">
+              <div class="quantity">
+                <span class="quan-btn">-</span>
+                <span class="number">1</span>
+                <span class="quan-btn">+</span>
+              </div>
+              <button class="add-button">
+                <span class="material-symbols-outlined">add_shopping_cart</span>
+                Thêm vào đơn
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Experience & Connections-->
+      <section class="experience-container">
+        <!-- 4.1 Experience header -->
+        <div class="experience-header">
+          <p class="category">TRẢI NGHIỆM & KẾT NỐI</p>
+          <h2>Không gian Âm Nhạc & Điểm Đến</h2>
+          <p class="description">
+            Lắng nghe danh sách phát chill out cùng vị trí trung tâm tiện lợi
+            của quán
+          </p>
+        </div>
+
+        <!-- 4.2 Experience Main -->
+        <div class="experience-main">
+          <!-- 4.2.1 Music -->
+          <div class="music-container">
+            <div class="music-main">
+              <div class="header">
+                <span class="material-symbols-outlined icon">music_note</span>
+                <p>
+                  <span class="title">Giai điệu quán đang phát</span>
+                  <br />
+                  <span class="description"
+                    >Acoustic & Lofi Coffee Vibes Live</span
+                  >
+                </p>
+              </div>
+
+              <iframe
+                src="https://www.youtube.com/embed/OLaYISTt65E?si=sdpxQkY6BdaEzSZq?autoplay=0&amp;mute=0&amp;controls=1"
+                frameborder="0"
+              ></iframe>
+
+              <div class="information">
+                <span
+                  class="material-symbols-outlined"
+                  style="color: var(--color-primary); font-size: 28px"
+                  >graphic_eq</span
+                >
+                <p>
+                  <span class="song-name">
+                    Lofi Cat Nap - Chill Beats to Relax & Pet Cats</span
+                  >
+                  <br />
+                  <span class="song-author"
+                    >Nghệ sĩ: Meow Melodies & Acoustic Chill</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="music-footer">
+              <span>Đồng bộ danh sách Spotify & Youtube</span>
+              <div class="open-btn">
+                <span>Mở trong app</span>
+                <span class="material-symbols-outlined">open_in_new</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4.2.2 Map -->
+          <div class="map-container">
+            <div class="map-main">
+              <div class="header">
+                <span class="material-symbols-outlined icon">location_on</span>
+                <p>
+                  <span class="title">Vị trí & Đường đi tới quán</span>
+                  <br />
+                  <span class="description"
+                    >Khu vực trung tâm Quận 1, TP. Hồ Chí Minh</span
+                  >
+                </p>
+              </div>
+              <iframe
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4975549074093!2d106.6974113758385!3d10.773145459247656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f385570472f%3A0x178749171f1a5f64!2zQuG6v24gVGjDoG5oLCBRdeG6rW4gMSwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2svn!4v1700000000000!5m2!1svi!2svn"
+              >
+              </iframe>
+              <div class="information">
+                <div class="info-item">
+                  <span
+                    class="material-symbols-outlined"
+                    style="color: var(--color-primary); font-size: 28px"
+                    >place</span
+                  >
+                  <p>
+                    <b>Địa chỉ: </b
+                    ><span
+                      >123 Đường Phố Yên Bình, P. Bến Nghé, Quận 1, TP. Hồ Chí
+                      Minh</span
+                    >
+                  </p>
+                </div>
+
+                <div class="info-item">
+                  <span
+                    class="material-symbols-outlined"
+                    style="color: var(--color-primary); font-size: 28px"
+                    >schedule</span
+                  >
+                  <p>
+                    <b>Giờ mở cửa: </b
+                    ><span
+                      >08:00 - 22:30 hàng ngày (kể cả Thứ 7, Chủ Nhật & ngày
+                      lễ</span
+                    >
+                  </p>
+                </div>
+
+                <div class="info-item">
+                  <span
+                    class="material-symbols-outlined"
+                    style="color: var(--color-primary); font-size: 28px"
+                    >local_parking</span
+                  >
+                  <p>
+                    <b>Chỗ để xe: </b
+                    ><span
+                      >Bãi giữ xe máy & ô tô miễn phí ngay trước quán có bảo vệ
+                      trực 24/7</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-footer">
+              <span>Cách trạm metro Bến thành 5 phút đi bộ</span>
+              <button>
+                Chỉ đường
+                <span class="material-symbols-outlined">directions</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 5. Footer -->
+    <footer>
+      <div class="coffe-info">
+        <div class="title">
+          <span class="material-symbols-outlined">pets</span>
+          <p class="shop-name">Lovely Cat Cafe</p>
+        </div>
+        <p class="description">
+          Không gian thưởng thức cà phê yên bình và trải nghiệm tương tác với
+          những người bạn mèo đáng yêu được cứu hộ và chăm sóc chu đáo với tình
+          yêu thương vô điều kiện.
+        </p>
+      </div>
+
+      <div class="timetable">
+        <p class="title">THỜI GIAN ĐÓN KHÁCH</p>
+        <div class="time-items">
+          <div class="time-item">
+            <span class="weekday">Thứ Hai - Thứ Sáu</span>
+            <span class="time">08:00 - 22:00</span>
+          </div>
+
+          <div class="time-item">
+            <span class="weekday">Thứ Bảy - Chủ Nhật</span>
+            <span class="time">07:30 - 22:30</span>
+          </div>
+
+          <div class="time-item">
+            <span class="weekday">Khung giờ cho mèo ăn tập trung</span>
+            <span class="time">10:00 & 17:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <p class="title">LIÊN HỆ & HỖ TRỢ</p>
+        <div class="info">
+          <p class="address">
+            <span class="material-symbols-outlined">place</span>
+            123 Đường Phố Yên Bình, P. Bến Nghé, Quận 1, TP. HCM
+          </p>
+
+          <p class="phone">
+            <span class="material-symbols-outlined">call</span>
+            +84 (028) 3822 9999
+          </p>
+          <p class="mail">
+            <span class="material-symbols-outlined">mail</span>
+            meow@lovelycatcafe.vn
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
